@@ -1,0 +1,7 @@
+{
+  "name": "Express Vue Boilerplate",
+  "description": "A boilerplate expressjs and vuejs boilerplate",
+  "repository": "https://github.com/toanalien/exvue",
+  "logo": "https://raw.githubusercontent.com/toanalien/exvue/master/client/src/assets/logo.png",
+  "keywords": ["node", "express", "vue", "webpack"]
+}
