@@ -22,7 +22,9 @@ $ npm run build
 
 Compiled code will be in `./server/public/dist/` folder.
 
-## Deploy to Heroku 
+## Deploy to Heroku
+
+[![one-click deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Ftoanalien%2Fexvue)
 
 We set `NPM_CONFIG_PRODUCTION` to `false` to install `devDependencies`
 
