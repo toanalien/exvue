@@ -5,7 +5,9 @@
   "private": true,
   "scripts": {
     "start": "nodemon server/bin/www",
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --content-base server/public && npm run start",
+    "dev": "npm run dev-nix",
+    "dev-nix": "cross-env NODE_ENV=development webpack-dev-server --open --hot --content-base server/public & npm run start",
+    "dev-win": "start cross-env NODE_ENV=development webpack-dev-server --open --hot --content-base server/public && npm run start",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "serve": "npm run build && nodemon server/bin/www",
     "postinstall": "npm run build"
