@@ -1,5 +1,7 @@
 # Express + Vue + Webpack = ExVue
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/toanalien/exvue.svg)](https://greenkeeper.io/)
+
 ![](/client/src/assets/logo.png)
 
 ## Setup
